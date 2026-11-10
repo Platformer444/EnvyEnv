@@ -1,0 +1,20 @@
+{
+  "name": "envyenv",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Platformer444",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "tsx tests/weather.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "geotiff": "^3.0.5",
+    "openmeteo": "^1.2.3"
+  }
+}
